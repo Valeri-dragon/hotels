@@ -8,36 +8,37 @@ html {
   box-sizing: inherit;
 }
 @font-face {
-  font-family: 'Muller';
-  src: local('MullerRegular'), url('../fonts/MullerRegular.woff2') format('woff2'),
-    url('../fonts/MullerRegular.woff') format('woff');
+  font-family: "Muller";
+  src: local("MullerRegular"),
+    url("../fonts/MullerRegular.woff2") format("woff2"),
+    url("../fonts/MullerRegular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('MullerLight'), url('../fonts/MullerLight.woff2') format('woff2'),
-    url('../fonts/MullerLight.woff') format('woff');
+  font-family: "Muller";
+  src: local("MullerLight"), url("../fonts/MullerLight.woff2") format("woff2"),
+    url("../fonts/MullerLight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('MullerBold'), url('../fonts/MullerBold.woff2') format('woff2'),
-    url('../fonts/MullerBold.woff') format('woff');
+  font-family: "Muller";
+  src: local("MullerBold"), url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('MullerMedium'), url('../fonts/MullerMedium.woff2') format('woff2'),
-    url('../fonts/MullerMedium.woff') format('woff');
+  font-family: "Muller";
+  src: local("MullerMedium"), url("../fonts/MullerMedium.woff2") format("woff2"),
+    url("../fonts/MullerMedium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -65,15 +66,14 @@ img {
   max-width: 100%;
 }
 
-
-  body {
-    margin: auto;
-    max-width: 1200px;
-    min-width: 320px;
-    font-family: 'Muller', sans-serif;
-    background-color: #E5E5E5;
+body {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 320px;
+  font-family: "Muller", sans-serif;
+  background-color: #e5e5e5;
 }
-    
+
 /*glob*/
 .list-reset {
   margin: 0;
@@ -126,8 +126,8 @@ img {
 }
 .header-nav {
   padding: 27px 45px;
-  background: #ffffff;
   border-radius: 15px;
+  background: #ffffff;
 }
 .header-list {
   margin-right: 114px;
@@ -148,20 +148,20 @@ img {
 .offer-item {
   flex-direction: column;
   justify-content: end;
-  width: 573px;
-  min-height: 258px;
   padding: 40px 45px;
   border-radius: 15px;
+  width: 573px;
+  min-height: 258px;
 }
 .offer-article {
-  width: 573px;
-  min-height: 540px;
   flex-direction: column;
   justify-content: end;
   padding: 212px 45px 40px;
+  border-radius: 15px;
+  width: 573px;
+  min-height: 540px;
   background: url(../img/offer3.jpg) no-repeat;
   background-size: cover;
-  border-radius: 15px;
 }
 .offer-item:not(:last-child) {
   margin-bottom: 24px;
@@ -201,8 +201,8 @@ img {
 }
 /*about*/
 .about-descr {
-  max-width: 888px;
   margin: 0;
+  max-width: 888px;
   text-align: justify;
   line-height: 200%;
 }
@@ -212,9 +212,9 @@ img {
   gap: 24px;
 }
 .services-item {
+  border-radius: 15px;
   max-width: 573px;
   background: #ffffff;
-  border-radius: 15px;
   overflow: hidden;
 }
 .services-content {
@@ -234,51 +234,49 @@ img {
 }
 .advantages-item {
   flex-direction: column;
-  padding: 40px 45px 32px;
   align-self: start;
+  padding: 40px 45px 32px;
+  border-radius: 15px;
   width: 276px;
   background: #ffffff;
-  border-radius: 15px;
 }
 .advantages-img {
-  width: 64px;
   margin: 0;
   margin-bottom: 10px;
+  width: 64px;
 }
 .advantages-descr {
   line-height: 200%;
 }
 /*placement*/
-.placement-list{
+.placement-list {
   flex-wrap: wrap;
   gap: 24px;
-  
 }
-.placement-item{
-background:#ffffff;
-  border-radius:15px;
+.placement-item {
+  border-radius: 15px;
+  background: #ffffff;
   overflow: hidden;
 }
-.placement-item-content{
+.placement-item-content {
   padding: 32px 45px 45px;
 }
-.placement-item-top{
-  margin: 0;
-  margin-bottom: 16px;
-
-}
-.placement-item-title{
+.placement-item-top {
   margin: 0;
   margin-bottom: 16px;
 }
-.placement-item-descr{
+.placement-item-title {
+  margin: 0;
+  margin-bottom: 16px;
+}
+.placement-item-descr {
   margin: 0;
   margin-bottom: 20px;
 }
-.placement__last{
-  align-items:end;
-  border-radius: 15px;
+.placement__last {
+  align-items: end;
   padding: 0 54px 27px;
+  border-radius: 15px;
   min-width: 374px;
   background: url(../img/placement_last.jpg) no-repeat;
   background-size: cover;
