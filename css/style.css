@@ -72,6 +72,7 @@ body {
   min-width: 320px;
   font-family: "Muller", sans-serif;
   background-color: #e5e5e5;
+  color: #666666;
 }
 
 /*glob*/
@@ -105,6 +106,20 @@ body {
   margin: 0;
   margin-bottom: 20px;
   margin-left: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #333333;
+}
+.btn {
+  padding: 15px;
+  border-radius: 3px;
+  max-width: 110px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #cc9933;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+  cursor: pointer;
 }
 /*header*/
 .header {
@@ -112,31 +127,50 @@ body {
 }
 .header-top {
   align-items: center;
-  justify-content: space-between;
   margin-bottom: 30px;
 }
-.header-top-left {
-  align-items: center;
-}
+
 .header-logo {
   margin-right: 40px;
 }
-.link-account svg {
-  margin-right: 7px;
+.header-phone {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+ }
+.link-account {
+  position: relative;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #cc9933;
+  background-image: url(../img/keyboard_tab.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 .header-nav {
-  padding: 27px 45px;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0;
   border-radius: 15px;
   background: #ffffff;
 }
 .header-list {
   margin-right: 114px;
+  margin-left: 45px;
 }
 .header-item:not(:last-child) {
   margin-right: 45px;
 }
 .header-btn:not(:last-child) {
   margin-right: 40px;
+}
+.header-btn.call {
+  max-width: 177px;
+  margin-right: 45px;
 }
 /*offer*/
 .offer-cards {
