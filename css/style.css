@@ -130,8 +130,47 @@ body {
   border: 1px solid #cc9933;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 1s ease-out;
 }
-
+.btn:hover{
+  border: 1px solid transparent;
+  background-color: #CC9933;
+  color: #ffffff;
+}
+.btn:focus{
+  border: 1px solid transparent;
+  background-color: #CC9933;
+  color: #ffffff;
+}
+.btn:active{
+  color: #ffffff;
+ background-color: #A47312;
+}
+.link{
+ cursor: pointer;
+  transition: all 0.3s ease-in-out;
+ }
+.link:hover {
+color: #F0BF5F;
+}
+.link:focus{
+ outline: 1px solid #CC9933;
+    outline-offset: 11px;
+}
+.link:active{
+  outline: none;
+  color: #A47312;
+}
+.social-icon{
+  transition: all 1s ease-out;
+}
+.social-link:hover .social-icon path, .social-link:focus .social-icon path{
+  outline: none;
+  fill: #F0BF5F;
+}
+.social-link:active .social-icon path{
+  fill: A47312;
+}
 /*header*/
 .header {
   padding-top: 40px;
@@ -166,7 +205,6 @@ body {
   background-repeat: no-repeat;
   background-position: center left;
 }
-
 .header-nav {
   align-items: center;
   justify-content: center;
