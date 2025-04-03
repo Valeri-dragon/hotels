@@ -130,45 +130,46 @@ body {
   border: 1px solid #cc9933;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 1s ease-out;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
-.btn:hover{
+.btn:hover {
   border: 1px solid transparent;
-  background-color: #CC9933;
+  background-color: #cc9933;
   color: #ffffff;
 }
-.btn:focus{
+.btn:focus {
   border: 1px solid transparent;
-  background-color: #CC9933;
+  background-color: #cc9933;
   color: #ffffff;
 }
-.btn:active{
+.btn:active {
   color: #ffffff;
- background-color: #A47312;
+  background-color: #a47312;
 }
-.link{
- cursor: pointer;
-  transition: all 0.3s ease-in-out;
- }
+.link {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
 .link:hover {
-color: #F0BF5F;
+  color: #f0bf5f;
 }
-.link:focus{
- outline: 1px solid #CC9933;
-    outline-offset: 11px;
+.link:focus {
+  outline: 1px solid #cc9933;
+  outline-offset: 11px;
 }
-.link:active{
+.link:active {
   outline: none;
-  color: #A47312;
+  color: #a47312;
 }
-.social-icon{
-  transition: all 1s ease-out;
+.social-icon {
+  transition: fill 0.3s ease-out;
 }
-.social-link:hover .social-icon path, .social-link:focus .social-icon path{
+.social-link:hover .social-icon path,
+.social-link:focus .social-icon path {
   outline: none;
-  fill: #F0BF5F;
+  fill: #f0bf5f;
 }
-.social-link:active .social-icon path{
+.social-link:active .social-icon path {
   fill: A47312;
 }
 /*header*/
@@ -569,7 +570,7 @@ color: #F0BF5F;
   border-radius: 15px;
   background-color: #333333;
   min-height: 341px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-content {
   flex-direction: column;
@@ -577,33 +578,33 @@ color: #F0BF5F;
   width: 302px;
   padding-bottom: 45px;
 }
-.footer-text{
+.footer-text {
   line-height: 190%;
 }
 .footer-address {
-    padding-right: 140px;
+  padding-right: 140px;
   line-height: 30px;
   background-image: url(../img/bg_footer.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
-.footer-address span{
+.footer-address span {
   display: inline-block;
   margin-bottom: 15px;
 }
-.footer-link{
-  color: #CC9933;
+.footer-link {
+  color: #cc9933;
   line-height: 150%;
 }
-.footer-list{
-flex-direction: column;
+.footer-list {
+  flex-direction: column;
   justify-content: space-between;
   min-height: 111px;
 }
-.footer-item:nth-child(2n){
+.footer-item:nth-child(2n) {
   margin-bottom: 15px;
 }
-.social{
+.social {
   flex-direction: column;
   gap: 20px;
 }
